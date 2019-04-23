@@ -5,10 +5,10 @@ using NUnit.Framework;
 
 namespace UnitTests
 {
-    [TestFixture]
+    //[TestFixture]
     class Test
     {
-        [Test]
+        //[Test]
         public void DoTest()
         {
 
