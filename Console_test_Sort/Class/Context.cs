@@ -19,7 +19,6 @@ namespace Console_test_Sort.Class
             _sortMeth = sortType;
         }
 
-        
         public int[] DoSomeSort(int[] data)
         {
             _sortMeth.Sort(data);

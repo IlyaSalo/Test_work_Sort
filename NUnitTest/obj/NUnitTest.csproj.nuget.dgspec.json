@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\myWork\\test_Sort\\UnitTests\\UnitTests.csproj": {}
+    "C:\\myWork\\test_Sort\\NUnitTest\\NUnitTest.csproj": {}
   },
   "projects": {
     "C:\\myWork\\test_Sort\\Console_test_Sort\\Console_test_Sort.csproj": {
@@ -57,14 +57,14 @@
         }
       }
     },
-    "C:\\myWork\\test_Sort\\UnitTests\\UnitTests.csproj": {
+    "C:\\myWork\\test_Sort\\NUnitTest\\NUnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\myWork\\test_Sort\\UnitTests\\UnitTests.csproj",
-        "projectName": "UnitTests",
-        "projectPath": "C:\\myWork\\test_Sort\\UnitTests\\UnitTests.csproj",
+        "projectUniqueName": "C:\\myWork\\test_Sort\\NUnitTest\\NUnitTest.csproj",
+        "projectName": "NUnitTest",
+        "projectPath": "C:\\myWork\\test_Sort\\NUnitTest\\NUnitTest.csproj",
         "packagesPath": "C:\\Users\\Ilya\\.nuget\\packages\\",
-        "outputPath": "C:\\myWork\\test_Sort\\UnitTests\\obj\\",
+        "outputPath": "C:\\myWork\\test_Sort\\NUnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -100,15 +100,22 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.8.0, )"
+            },
             "Microsoft.NETCore.App": {
-              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
             },
-            "NUnit": {
+            "NUnit3TestAdapter": {
               "target": "Package",
-              "version": "[3.11.0, )"
+              "version": "[3.10.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.10.1, )"
             }
           },
           "imports": [

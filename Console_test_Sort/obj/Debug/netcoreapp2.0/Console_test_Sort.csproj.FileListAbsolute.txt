@@ -8,4 +8,3 @@ C:\myWork\test_Sort\Console_test_Sort\obj\Debug\netcoreapp2.0\Console_test_Sort.
 C:\myWork\test_Sort\Console_test_Sort\obj\Debug\netcoreapp2.0\Console_test_Sort.AssemblyInfo.cs
 C:\myWork\test_Sort\Console_test_Sort\obj\Debug\netcoreapp2.0\Console_test_Sort.dll
 C:\myWork\test_Sort\Console_test_Sort\obj\Debug\netcoreapp2.0\Console_test_Sort.pdb
-C:\myWork\test_Sort\Console_test_Sort\obj\Debug\netcoreapp2.0\Console_test_Sort.csprojAssemblyReference.cache
