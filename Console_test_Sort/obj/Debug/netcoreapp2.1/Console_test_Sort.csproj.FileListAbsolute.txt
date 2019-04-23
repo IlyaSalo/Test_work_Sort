@@ -1,0 +1,10 @@
+C:\myWork\test_Sort\Console_test_Sort\bin\Debug\netcoreapp2.1\Console_test_Sort.deps.json
+C:\myWork\test_Sort\Console_test_Sort\bin\Debug\netcoreapp2.1\Console_test_Sort.runtimeconfig.json
+C:\myWork\test_Sort\Console_test_Sort\bin\Debug\netcoreapp2.1\Console_test_Sort.runtimeconfig.dev.json
+C:\myWork\test_Sort\Console_test_Sort\bin\Debug\netcoreapp2.1\Console_test_Sort.dll
+C:\myWork\test_Sort\Console_test_Sort\bin\Debug\netcoreapp2.1\Console_test_Sort.pdb
+C:\myWork\test_Sort\Console_test_Sort\obj\Debug\netcoreapp2.1\Console_test_Sort.csproj.CoreCompileInputs.cache
+C:\myWork\test_Sort\Console_test_Sort\obj\Debug\netcoreapp2.1\Console_test_Sort.AssemblyInfoInputs.cache
+C:\myWork\test_Sort\Console_test_Sort\obj\Debug\netcoreapp2.1\Console_test_Sort.AssemblyInfo.cs
+C:\myWork\test_Sort\Console_test_Sort\obj\Debug\netcoreapp2.1\Console_test_Sort.dll
+C:\myWork\test_Sort\Console_test_Sort\obj\Debug\netcoreapp2.1\Console_test_Sort.pdb

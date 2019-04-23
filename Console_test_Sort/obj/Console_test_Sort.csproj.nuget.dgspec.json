@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\myWork\\test_Sort\\Console_test_Sort\\Console_test_Sort.csproj": {}
+  },
+  "projects": {
+    "C:\\myWork\\test_Sort\\Console_test_Sort\\Console_test_Sort.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\myWork\\test_Sort\\Console_test_Sort\\Console_test_Sort.csproj",
+        "projectName": "Console_test_Sort",
+        "projectPath": "C:\\myWork\\test_Sort\\Console_test_Sort\\Console_test_Sort.csproj",
+        "packagesPath": "C:\\Users\\Ilya\\.nuget\\packages\\",
+        "outputPath": "C:\\myWork\\test_Sort\\Console_test_Sort\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ilya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+C:\myWork\test_Sort\UnitTests\bin\Debug\netcoreapp2.1\UnitTests.deps.json
+C:\myWork\test_Sort\UnitTests\bin\Debug\netcoreapp2.1\UnitTests.dll
+C:\myWork\test_Sort\UnitTests\bin\Debug\netcoreapp2.1\Console_test_Sort.dll
+C:\myWork\test_Sort\UnitTests\bin\Debug\netcoreapp2.1\Console_test_Sort.pdb
+C:\myWork\test_Sort\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.csprojAssemblyReference.cache
+C:\myWork\test_Sort\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.csproj.CoreCompileInputs.cache
+C:\myWork\test_Sort\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.AssemblyInfoInputs.cache
+C:\myWork\test_Sort\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.AssemblyInfo.cs
+C:\myWork\test_Sort\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.csproj.CopyComplete
+C:\myWork\test_Sort\UnitTests\bin\Debug\netcoreapp2.1\UnitTests.pdb
+C:\myWork\test_Sort\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.dll
+C:\myWork\test_Sort\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.pdb
