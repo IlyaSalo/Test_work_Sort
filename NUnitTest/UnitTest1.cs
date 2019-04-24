@@ -1,7 +1,9 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using Console_test_Sort.Class;
+using Console_test_Sort.Interfaces;
 using Console_test_Sort.SortingTypes;
 using NUnit.Framework;
 
@@ -10,13 +12,13 @@ namespace Tests
     [TestFixture]
     public class Tests
     {
-        [SetUp]
-        public void Setup()
-        {
-            Thread.Sleep(1000);
-        }
+        //[SetUp]
+        //public void Setup()
+        //{
+        //    Thread.Sleep(1000);
+        //}
 
-        [Test]
+        //[Test]
         public void TestTime()
         {
             Random rnd = new Random();
@@ -63,24 +65,35 @@ namespace Tests
         public void TestSort()
         {
             Random rnd = new Random();
-            var sorter = new Context(new BubbleSort());  //  SelectionSort() InsertionSort()
-            var syze = 100;
-            int[] ar = new int[syze];
-            for (int i = 0; i < ar.Length; i++)
-            {
-                ar[i] = rnd.Next(-100, 100);
-            }
-            sorter.DoSomeSort(ar);
+            var syze = 1000;
+            var typesOfSort = new List<Context>();
+            //add our types of sort
+            typesOfSort.Add(new Context(new BubbleSort()));
+            typesOfSort.Add(new Context(new SelectionSort()));
+            typesOfSort.Add(new Context(new InsertionSort()));
 
-            // Ckeck syze of array
-            if (ar.Length != syze) throw new Exception();
-
-            //Check if do not sort
-            for (var i = 0; i < ar.Length - 1; i++)
+            foreach (var i4 in typesOfSort)
             {
-               if (ar[i] > ar[i+1]) throw new Exception();
+                int[] ar = new int[syze];
+                for (int i = 0; i < ar.Length; i++)
+                {
+                    ar[i] = rnd.Next(-100, 100);
+                }
+                Thread.Sleep(100);
+                i4.DoSomeSort(ar);
+
+                // Ckeck syze of array
+                if (ar.Length != syze) throw new Exception();
+
+                //Check if do not sort
+                for (var i = 0; i < ar.Length - 1; i++)
+                {
+                    if (ar[i] > ar[i + 1]) throw new Exception();
+                }
+                Thread.Sleep(100);
             }
-            Thread.Sleep(1000);
+
+            Thread.Sleep(100);
         }
     }
 }
